@@ -20,6 +20,11 @@ qué se cambió y por qué. Lo más reciente va arriba.
   `ba3fbe6`: 253 archivos, ~42 MB, sin `env/` ni checkpoints. **Subido** al repo privado del
   equipo. Antes se verificó que era privado: la API pública de GitHub da 404 y con la sesión
   autenticada aparece vacío.
+- **Checkpoints también en el privado** (pedido del equipo, para pasárselo directamente a Diego y
+  Fernando): 3.038 archivos, 1,9 GB. Se subieron en 5 commits y pushes (corrida4, corrida5,
+  corrida3, noche1, corrida2) para no pasar el límite de 2 GB por push de GitHub. Tardó ~3 min.
+  Verificado: en el remoto están todos (corrida2 1114, corrida3 634, corrida4 120, corrida5 332,
+  noche1 838) y `main` coincide con `origin/main`. En el público siguen excluidos.
 - Cómo actualizar cada uno:
   - público: `git add -A; git commit; git push`;
   - privado: `git --git-dir=.git-privado --work-tree=. add -A` (más `add -f <archivo>` para un
