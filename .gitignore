@@ -1,0 +1,35 @@
+# DVF (sesión 63): repositorio público en GitHub.
+
+# --- Material de la cátedra (no se publica) ---
+game/
+setup_dl_notebook.py
+setup_game_notebook.py
+soccer_team_NormalTeam.py
+soccer_team_Passive.py
+soccer_team_ManualControl.py
+soccer_team_DeepLearning.py
+*.ipynb
+HowTo_*.MD
+README_curso.md
+docs/3D_SOUND_AND_ANTIEXPLOIT.md
+docs/DEEPLEARNING.md
+docs/HEADLESS.md
+
+# --- Entorno y archivos generados ---
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Pesados o locales ---
+models/runs/*/checkpoints/
+models/_cuarentena/
+models/runs/_salidas/
+models/runs/_estado/
+compartir/
+
+# --- Configuración local del editor ---
+.vscode/
+
+# --- Repo privado completo (git dir aparte, ver CHANGELOG sesión 64) ---
+.git-privado/

@@ -1,0 +1,183 @@
+{
+  "phases": [
+    {
+      "cycle": 1,
+      "role": "striker",
+      "steps": 1500000,
+      "start": "2026-10-19T10:27:24",
+      "hours": 0.203,
+      "hash_striker": "90ca10a5d8",
+      "hash_keeper": "62b4bfa8f6",
+      "opponents": [
+        "DVF_v2",
+        "DVF",
+        "DVF_v2",
+        "NormalTeam",
+        "DVF_v2",
+        "DVF",
+        "DVF_v2",
+        "NormalTeam"
+      ],
+      "entropy_coef": 0.01,
+      "reward": "v3",
+      "stats": {
+        "its": 245,
+        "ent_mean": 1.3994,
+        "gf_per_upd": 0.849,
+        "gc_per_upd": 2.269
+      }
+    },
+    {
+      "cycle": 1,
+      "role": "keeper",
+      "steps": 1500000,
+      "start": "2026-10-19T10:39:35",
+      "hours": 0.202,
+      "hash_striker": "90ca10a5d8",
+      "hash_keeper": "ba45aaa698",
+      "opponents": [
+        "DVF_v2",
+        "DVF",
+        "DVF_v2",
+        "NormalTeam",
+        "DVF_v2",
+        "DVF",
+        "DVF_v2",
+        "NormalTeam"
+      ],
+      "entropy_coef": 0.01,
+      "reward": "v3",
+      "stats": {
+        "its": 245,
+        "ent_mean": 2.1809,
+        "gf_per_upd": 0.706,
+        "gc_per_upd": 2.102
+      }
+    },
+    {
+      "cycle": 2,
+      "role": "striker",
+      "steps": 1500000,
+      "start": "2026-10-19T10:51:42",
+      "hours": 0.208,
+      "hash_striker": "cd0c47c46a",
+      "hash_keeper": "ba45aaa698",
+      "opponents": [
+        "DVF_v2",
+        "DVF",
+        "DVF_v2",
+        "NormalTeam",
+        "DVF_v2",
+        "DVF",
+        "DVF_v2",
+        "NormalTeam"
+      ],
+      "entropy_coef": 0.01,
+      "reward": "v3",
+      "stats": {
+        "its": 245,
+        "ent_mean": 0.8914,
+        "gf_per_upd": 0.792,
+        "gc_per_upd": 2.184
+      }
+    },
+    {
+      "cycle": 2,
+      "role": "keeper",
+      "steps": 1500000,
+      "start": "2026-10-19T11:04:10",
+      "hours": 0.211,
+      "hash_striker": "cd0c47c46a",
+      "hash_keeper": "64e07570a8",
+      "opponents": [
+        "DVF_v2",
+        "DVF",
+        "DVF_v2",
+        "NormalTeam",
+        "DVF_v2",
+        "DVF",
+        "DVF_v2",
+        "NormalTeam"
+      ],
+      "entropy_coef": 0.01,
+      "reward": "v3",
+      "stats": {
+        "its": 245,
+        "ent_mean": 2.3117,
+        "gf_per_upd": 0.996,
+        "gc_per_upd": 2.616
+      }
+    },
+    {
+      "cycle": 3,
+      "role": "striker",
+      "steps": 1500000,
+      "start": "2026-10-19T11:16:51",
+      "hours": 0.208,
+      "hash_striker": "d01e9d1eb6",
+      "hash_keeper": "64e07570a8",
+      "opponents": [
+        "DVF_v2",
+        "DVF",
+        "DVF_v2",
+        "NormalTeam",
+        "DVF_v2",
+        "DVF",
+        "DVF_v2",
+        "NormalTeam"
+      ],
+      "entropy_coef": 0.01,
+      "reward": "v3",
+      "stats": {
+        "its": 245,
+        "ent_mean": 1.4654,
+        "gf_per_upd": 1.11,
+        "gc_per_upd": 2.89
+      }
+    }
+  ],
+  "config": {
+    "run": "corrida4",
+    "opponents": [
+      "DVF_v2",
+      "DVF",
+      "DVF_v2",
+      "NormalTeam",
+      "DVF_v2",
+      "DVF",
+      "DVF_v2",
+      "NormalTeam"
+    ],
+    "workers": 6,
+    "worker_rollout": 256,
+    "mode": "alternate",
+    "phase_steps": 1500000,
+    "first": "striker",
+    "cycles": 0,
+    "hours": 0.0,
+    "until": "2026-10-19T11:27",
+    "init_from": "models\\runs\\_init_corrida4",
+    "save_every": 20,
+    "striker_opponents": null,
+    "keeper_opponents": null,
+    "striker_entropy": 0.01,
+    "keeper_entropy": 0.01,
+    "jitter_px": 5.0,
+    "still_speed": 15.0,
+    "hparams": {
+      "lr": 0.0003,
+      "gamma": 0.99,
+      "lam": 0.95,
+      "clip_ratio": 0.2,
+      "epochs": 4,
+      "batch_size": 64,
+      "action_repeat": 4,
+      "entropy_coef": 0.05,
+      "value_coef": 0.5,
+      "max_grad_norm": 0.5
+    },
+    "reward": "dvf_rewards.compute_reward v3",
+    "cpu_count": 16
+  },
+  "total_hours": 1.032
+}

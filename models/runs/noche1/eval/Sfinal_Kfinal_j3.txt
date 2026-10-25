@@ -1,0 +1,37 @@
+soccer_team_DVF_DL vs soccer_team_NormalTeam, soccer_team_DVF, soccer_team_DVF_v2: 4 partidos de 300 s por lado, ruido Â±3.0 px, con reinicio por pelota trabada, 24 trabajos en 14 procesos
+
+  1/24  (10 s)
+  2/24  (10 s)
+  3/24  (10 s)
+  4/24  (11 s)
+  5/24  (11 s)
+  6/24  (11 s)
+  7/24  (11 s)
+  8/24  (11 s)
+  9/24  (11 s)
+  10/24  (11 s)
+  11/24  (11 s)
+  12/24  (11 s)
+  13/24  (11 s)
+  14/24  (11 s)
+  15/24  (19 s)
+  16/24  (19 s)
+  17/24  (19 s)
+  18/24  (19 s)
+  19/24  (19 s)
+  20/24  (19 s)
+  21/24  (20 s)
+  22/24  (20 s)
+  23/24  (20 s)
+  24/24  (20 s)
+Resultados crudos en C:\BECA\REUTLINGEN\MATERIAS\robotic motions\soccer\praktikum-soccer\models\runs\noche1\eval\Sfinal_Kfinal_j3.jsonl
+
+Resultados de soccer_team_DVF_DL (promedio por partido; izq = azul, der = violeta)
+rival                        n |    como izq |    como der |   neto/2 part. |    G-E-P | saque fav-contra
+soccer_team_NormalTeam    4+4  | 102.2 -  2.5 | 73.0 -  3.2 | +169.5 Â± 20.0 |    8-0-0 |       86.9 - 0.8
+soccer_team_DVF           4+4  |  6.2 - 21.8 |  4.8 - 27.0 | -37.8 Â± 12.7 |    0-0-8 |       5.4 - 14.6
+soccer_team_DVF_v2        4+4  |  0.5 - 29.8 |  0.5 - 35.0 | -63.8 Â± 11.4 |    0-0-8 |       0.1 - 23.9
+
+neto/2 part. = (dif. de gol como izq) + (dif. de gol como der); Â± = intervalo ~95 %.
+Reinicios por pelota trabada: 6.0 por partido.
+Pelota quieta en esquinas: 9.1% del tiempo (de nuestro lado 4.8%, del lado rival 4.3%).

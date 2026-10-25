@@ -1,0 +1,10 @@
+2026-10-18T22:30:03 === supervisor: run=corrida3 hasta 2026-10-19T07:00 | args: --run corrida3 --until 2026-10-19T07:00 --init-from models\runs\corrida2\respaldo_antes_clon --phase-steps 1500000 --opponents DVF_v2 DVF DVF_v2 NormalTeam DVF_v2 DVF DVF_v2 NormalTeam --workers 4 --striker-entropy 0.01 --keeper-entropy 0.01 ===
+2026-10-18T22:30:03 intento 1: lanzando train_dl.py
+2026-10-18T23:45:07 === supervisor: run=corrida3 hasta 2026-10-19T07:00 | args: --run corrida3 --until 2026-10-19T07:00 --init-from models\runs\corrida2\respaldo_antes_clon --phase-steps 1500000 --opponents DVF_v2 DVF DVF_v2 NormalTeam DVF_v2 DVF DVF_v2 NormalTeam --workers 12 --striker-entropy 0.01 --keeper-entropy 0.01 ===
+2026-10-18T23:45:07 intento 1: lanzando train_dl.py
+2026-10-19T00:02:01 === supervisor: run=corrida3 hasta 2026-10-19T07:00 | args: --run corrida3 --until 2026-10-19T07:00 --init-from models\runs\corrida2\respaldo_antes_clon --phase-steps 1500000 --opponents DVF_v2 DVF DVF_v2 NormalTeam DVF_v2 DVF DVF_v2 NormalTeam --workers 8 --striker-entropy 0.01 --keeper-entropy 0.01 ===
+2026-10-19T00:02:01 intento 1: lanzando train_dl.py
+2026-10-19T00:57:12 === supervisor: run=corrida3 hasta 2026-10-19T07:00 | args: --run corrida3 --until 2026-10-19T07:00 --init-from models\runs\corrida2\respaldo_antes_clon --phase-steps 1500000 --opponents DVF_v2 DVF DVF_v2 NormalTeam DVF_v2 DVF DVF_v2 NormalTeam --workers 8 --striker-entropy 0.015 --keeper-entropy 0.01 ===
+2026-10-19T00:57:12 intento 1: lanzando train_dl.py
+2026-10-19T01:33:31 === supervisor: run=corrida3 hasta 2026-10-19T07:00 | args: --run corrida3 --until 2026-10-19T07:00 --init-from models\runs\corrida2\respaldo_antes_clon --phase-steps 1500000 --opponents DVF_v2 DVF DVF_v2 NormalTeam DVF_v2 DVF DVF_v2 NormalTeam --workers 10 --striker-entropy 0.01 --keeper-entropy 0.01 ===
+2026-10-19T01:33:31 intento 1: lanzando train_dl.py

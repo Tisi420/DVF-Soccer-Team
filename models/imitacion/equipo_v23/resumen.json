@@ -1,0 +1,113 @@
+{
+ "fecha": "2026-10-24T12:21:48",
+ "recompensa": "v4",
+ "segundos_por_partido": 240.0,
+ "semillas": 4,
+ "epocas": 40,
+ "marcadores_grabacion": {
+  "soccer_team_NormalTeam#0": [
+   3,
+   1
+  ],
+  "soccer_team_NormalTeam#1": [
+   2,
+   0
+  ],
+  "soccer_team_NormalTeam#2": [
+   9,
+   1
+  ],
+  "soccer_team_NormalTeam#3": [
+   2,
+   0
+  ],
+  "soccer_team_DVF#0": [
+   1,
+   0
+  ],
+  "soccer_team_DVF#1": [
+   1,
+   1
+  ],
+  "soccer_team_DVF#2": [
+   0,
+   0
+  ],
+  "soccer_team_DVF#3": [
+   2,
+   1
+  ],
+  "soccer_team_DVF_v2#0": [
+   0,
+   1
+  ],
+  "soccer_team_DVF_v2#1": [
+   0,
+   1
+  ],
+  "soccer_team_DVF_v2#2": [
+   0,
+   2
+  ],
+  "soccer_team_DVF_v2#3": [
+   2,
+   2
+  ]
+ },
+ "roles": {
+  "striker": {
+   "muestras": 43200,
+   "val_accuracy": {
+    "val_act_fb_accuracy": 0.9364,
+    "val_act_lr_accuracy": 0.8931,
+    "val_act_turn_accuracy": 0.998
+   },
+   "val_value_loss": 4.3761,
+   "retorno_medio": 0.9192721247673035,
+   "distribucion_acciones": {
+    "fb": [
+     7548,
+     30717,
+     4935
+    ],
+    "lr": [
+     20313,
+     15698,
+     7189
+    ],
+    "turn": [
+     36786,
+     3546,
+     2868
+    ]
+   }
+  },
+  "keeper": {
+   "muestras": 43200,
+   "val_accuracy": {
+    "val_act_fb_accuracy": 0.8427,
+    "val_act_lr_accuracy": 0.9873,
+    "val_act_turn_accuracy": 1.0
+   },
+   "val_value_loss": 0.5335,
+   "retorno_medio": 0.026090474799275398,
+   "distribucion_acciones": {
+    "fb": [
+     8218,
+     15848,
+     19134
+    ],
+    "lr": [
+     35466,
+     4722,
+     3012
+    ],
+    "turn": [
+     42279,
+     467,
+     454
+    ]
+   }
+  }
+ }
+}

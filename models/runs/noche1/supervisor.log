@@ -1,0 +1,9 @@
+2026-10-17T21:11:10 === supervisor: run=noche1 hasta 2026-10-18T07:15 | args: --run noche1 --until 2026-10-18T07:15 --phase-steps 1500000 ===
+2026-10-17T21:11:10 intento 1: lanzando train_dl.py
+2026-10-17T21:24:05 [encadenador] esperando a que termine el supervisor PID 12736; después: --run noche1 --until 2026-10-18T10:30 --phase-steps 1500000
+2026-10-17T22:28:18 !!! train_dl.py se cayó (código 4294967295 = 0xFFFFFFFF); workers huérfanos eliminados: 14; relanzo en 15 s
+2026-10-17T22:28:33 intento 2: lanzando train_dl.py
+2026-10-17T23:33:58 === supervisor: run=noche1 hasta 2026-10-18T10:30 | args: --run noche1 --until 2026-10-18T10:30 --phase-steps 1500000 --striker-opponents NormalTeam --striker-entropy 0.01 ===
+2026-10-17T23:33:58 intento 1: lanzando train_dl.py
+2026-10-18T06:01:24 === supervisor: run=noche1 hasta 2026-10-18T10:30 | args: --run noche1 --until 2026-10-18T10:30 --phase-steps 1500000 --striker-opponents NormalTeam --striker-entropy 0.01 --keeper-entropy 0.02 ===
+2026-10-18T06:01:24 intento 1: lanzando train_dl.py

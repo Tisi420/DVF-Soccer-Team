@@ -1,0 +1,14 @@
+2026-10-18T12:18:21 === supervisor: run=corrida2 hasta 2026-10-19T07:00 | args: --run corrida2 --until 2026-10-19T07:00 --init-from models\runs\noche1 --phase-steps 1500000 --opponents NormalTeam DVF DVF_v2 --striker-entropy 0.02 --keeper-entropy 0.02 ===
+2026-10-18T12:18:21 intento 1: lanzando train_dl.py
+2026-10-18T13:06:52 === supervisor: run=corrida2 hasta 2026-10-19T07:00 | args: --run corrida2 --until 2026-10-19T07:00 --init-from models\runs\noche1 --phase-steps 1500000 --opponents NormalTeam DVF DVF_v2 --workers 8 --striker-entropy 0.02 --keeper-entropy 0.02 ===
+2026-10-18T13:06:52 intento 1: lanzando train_dl.py
+2026-10-18T15:31:43 === supervisor: run=corrida2 hasta 2026-10-19T07:00 | args: --run corrida2 --until 2026-10-19T07:00 --init-from models\runs\noche1 --phase-steps 1500000 --opponents NormalTeam DVF DVF_v2 --workers 8 --striker-entropy 0.01 --keeper-entropy 0.02 ===
+2026-10-18T15:31:43 intento 1: lanzando train_dl.py
+2026-10-18T18:09:04 === supervisor: run=corrida2 hasta 2026-10-19T07:00 | args: --run corrida2 --until 2026-10-19T07:00 --init-from models\runs\noche1 --phase-steps 1500000 --opponents NormalTeam DVF DVF_v2 --workers 8 --striker-entropy 0.01 --keeper-entropy 0.01 ===
+2026-10-18T18:09:04 intento 1: lanzando train_dl.py
+2026-10-18T18:45:44 === supervisor: run=corrida2 hasta 2026-10-19T07:00 | args: --run corrida2 --until 2026-10-19T07:00 --init-from models\runs\noche1 --phase-steps 1500000 --opponents DVF_v2 DVF DVF_v2 NormalTeam DVF_v2 DVF DVF_v2 NormalTeam --workers 8 --striker-entropy 0.01 --keeper-entropy 0.01 ===
+2026-10-18T18:45:44 intento 1: lanzando train_dl.py
+2026-10-18T21:10:57 === supervisor: run=corrida2 hasta 2026-10-19T07:00 | args: --run corrida2 --until 2026-10-19T07:00 --init-from models\runs\noche1 --phase-steps 1500000 --opponents DVF_v2 DVF DVF_v2 NormalTeam DVF_v2 DVF DVF_v2 NormalTeam --workers 8 --striker-entropy 0.01 --keeper-entropy 0.01 ===
+2026-10-18T21:10:57 intento 1: lanzando train_dl.py
+2026-10-18T22:29:58 === supervisor: run=corrida2 hasta 2026-10-19T07:00 | args: --run corrida2 --until 2026-10-19T07:00 --init-from models\runs\noche1 --phase-steps 1500000 --opponents DVF_v2 DVF DVF_v2 NormalTeam DVF_v2 DVF DVF_v2 NormalTeam --workers 4 --striker-entropy 0.01 --keeper-entropy 0.01 ===
+2026-10-18T22:29:58 intento 1: lanzando train_dl.py
