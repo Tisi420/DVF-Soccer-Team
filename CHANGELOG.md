@@ -5,6 +5,26 @@ qué se cambió y por qué. Lo más reciente va arriba.
 
 ---
 
+## Sesión 2026-10-25 (64) — Repositorios en GitHub: público (nuestro código) y privado (completo)
+
+- **Público: https://github.com/Tisi420/DVF-Soccer-Team** (rama `main`, commit `6316bdf`, 170
+  archivos, ~31 MB).
+  - Sin el material de la cátedra; se verificó con `git ls-tree` que no hay nada del curso en
+    `origin/main`.
+  - Autor `Tisi420`, email anónimo `Tisi420@users.noreply.github.com`.
+  - El push no pidió login.
+- **Privado (completo), preparado en local**: repositorio git aparte en `.git-privado/`, sobre la
+  misma carpeta. Incluye además el simulador `game/`, `setup_*_notebook.py`, los equipos de
+  ejemplo, los notebooks, las guías `HowTo_*.MD`, los documentos del curso, `README_curso.md` y
+  `.vscode/`, agregados con `add -f` porque el `.gitignore` del público los excluye. Commit
+  `ba3fbe6`: 253 archivos, ~42 MB, sin `env/` ni checkpoints. **Subido** al repo privado del
+  equipo. Antes se verificó que era privado: la API pública de GitHub da 404 y con la sesión
+  autenticada aparece vacío.
+- Cómo actualizar cada uno:
+  - público: `git add -A; git commit; git push`;
+  - privado: `git --git-dir=.git-privado --work-tree=. add -A` (más `add -f <archivo>` para un
+    archivo del curso que haya cambiado), después `commit` y `push` con el mismo prefijo.
+
 ## Sesión 2026-10-25 (63) — corrida5 detenida y paquete para que Diego y Fernando sigan entrenando
 
 - **corrida5 detenida** 2 s después del guardado de las 13:15:56: **2,46 h, 14 fases**. Llegó a
